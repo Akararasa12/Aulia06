@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+section#Aulia{
+    background-color: rgb(151, 151, 151);
+    width: auto;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+section#Aulia h1{
+    font-size: 3rem;
+    color: white;
+}
+#image{
+    position: relative;
+    display: flex;
+    float: inline-start;
+}
+
+#player{
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 1250px) {
+    #player{
+        width: 460;
+        height: 230;
+    }
+}
